@@ -51,6 +51,7 @@ var defaultChromeArgs = []string{
 	"--safebrowsing-disable-auto-update",
 	"--password-store=basic",
 	"--use-mock-keychain",
+	"--remote-allow-origins=*",
 }
 
 // New returns a new HTML5 UI for the given URL, user profile directory, window
